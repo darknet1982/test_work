@@ -55,8 +55,8 @@ class Members extends \yii\db\ActiveRecord
             'inn' => 'ИНН',
             'ogrn' => 'ОГРН',
             'date_append' => 'Дата внесения в реестр',
-            'sro_id' => 'Sro ID',
-            'regnum' => 'Регистрационный номер СРО',
+            'reg_num' => 'Регистрационный номер СРО',
+            'sro_state' => 'Федеральный округ'
         ];
     }
 

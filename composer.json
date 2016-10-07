@@ -21,7 +21,8 @@
         "yiisoft/yii2-jui": "*",
         "kartik-v/yii2-widget-datepicker": "@dev",
         "kartik-v/yii2-export": "*",
-        "kartik-v/yii2-grid": "@dev"
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-mpdf": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

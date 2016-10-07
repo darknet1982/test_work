@@ -21,8 +21,13 @@ use kartik\date\DatePicker;
         ];
     
     ?>
-
-    <?= $form->field($model, 'status')->textInput(['maxlength' => true]) ?>
+    
+    <?=$form->field($model, 'status')->dropDownList([
+    'Исключен' => 'Исключен',
+    'Является членом ' => 'Является членом ',
+    ]);
+    ?>
+   
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
